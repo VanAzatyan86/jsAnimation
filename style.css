@@ -1,0 +1,44 @@
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+}
+.boxes .smallBox {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  gap: 5px;
+  border: 1px solid rgb(197, 174, 174);
+}
+.boxes .smallBox button {
+  background: fuchsia;
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+.boxes .smallBox img {
+  width: 70px;
+  margin: 5px auto;
+}
+.boxes .smallBox .modal {
+  width: 100px;
+  height: 170px;
+  margin: 0 auto;
+  border: 1px solid;
+  background: rgb(10, 114, 155);
+  border: none;
+}
+.boxes .smallBox .myInput {
+  display: none;
+}
+.boxes .smallBox .btn {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.sircle {
+  border-radius: 50%;
+  rotate: 270deg;
+  transition: 5s;
+}/*# sourceMappingURL=style.css.map */
